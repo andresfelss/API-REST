@@ -14,7 +14,6 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
-
 // Tenemos que poner esto para que nuestra app pueda recivir algo
 app.use(express.json());
 
